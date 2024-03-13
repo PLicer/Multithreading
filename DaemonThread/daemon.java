@@ -20,7 +20,7 @@ public class daemon extends Thread{
         System.out.println("Hello this is main thread");
         System.out.println();
         daemon d = new daemon();
-        d.setDaemon(true);//It is use to convert thread into daemon thread
+        d.setDaemon(true); //It is use to convert thread into daemon thread
         d.start();
 
     }
